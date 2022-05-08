@@ -3,7 +3,7 @@ Experiments with interactive audio loops in R
 
 Playing with ideas and tools by [https://github.com/coolbutuseless](https://github.com/coolbutuseless).
 
-These experiments in building a small sample sequencer make use of the `eventloop` and `audio` R packages. 
+These experiments in building a small sample sequencer make use of the `eventloop` and `audio` R packages. The [original](https://twitter.com/coolbutuseless/status/1522547208121622528) drum machine was built using the `drumr` [packge](https://github.com/jamesmartherus/drumr); here we try to recreate a similar experience extending to any number of samples. 
 
 You can install `eventloop` as follows:
 
@@ -27,4 +27,5 @@ install.packages("audio")
 - Simon Urbanek for the `audio` package
 - CRAN and the R Core Team 
 - Canton and sampleswap.org for samples
+- James Martherus for the `drumr` package
 
