@@ -26,4 +26,5 @@ install.packages("audio")
 - mikefc for `eventloop` and ideas on drum machines 
 - Simon Urbanek for the `audio` package
 - CRAN and the R Core Team 
+- Canton and sampleswap.org for samples
 
