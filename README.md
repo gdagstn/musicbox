@@ -3,7 +3,7 @@ Experiments with interactive audio loops in R
 
 Playing with ideas and tools by [https://github.com/coolbutuseless](https://github.com/coolbutuseless).
 
-These experiments in building a small sample sequencer make use of the `eventloop` and `audio` R packages. The [original](https://twitter.com/coolbutuseless/status/1522547208121622528) drum machine was built using the `drumr` [packge](https://github.com/jamesmartherus/drumr); here we try to recreate a similar experience extending to any number of samples. 
+These experiments in building a small sample sequencer make use of the `eventloop` and `audio` R packages. The [original](https://twitter.com/coolbutuseless/status/1522547208121622528) drum machine was built using the `drumr` [package](https://github.com/jamesmartherus/drumr); here we try to recreate a similar experience extending to any number of samples. 
 
 You can install `eventloop` as follows:
 
@@ -20,7 +20,7 @@ install.packages("audio")
 ```
 
 ## Notes
-`audio` does not work with all types of .WAV files, so you have to choose the right bitrate/bit depth. The samples on [sampleswap][sampleswap.org] are ready to use, but you need to register to download, and to donate to have access to all samples. It may be possible to circumvent some of these limitations by performing conversion using `av`.
+`audio` does not work with all types of .WAV files, so you have to choose the right bitrate/bit depth. The samples on [sampleswap](sampleswap.org) are ready to use, but you need to register to download, and to donate to have access to all samples. It may be possible to circumvent some of these limitations by performing conversion using `av`.
 
 ## Thanks to:
 - mikefc for `eventloop` and ideas on drum machines 
